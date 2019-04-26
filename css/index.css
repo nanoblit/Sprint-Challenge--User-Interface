@@ -165,7 +165,12 @@ header nav {
 header nav a {
     text-decoration: none;
     color: black;
-    font-size: 15px
+    font-size: 15px;
+    transition: color 0.5s;
+}
+
+header nav a:hover {
+    color: grey;
 }
 
 #jumbo {
@@ -240,8 +245,8 @@ header nav a {
     text-decoration: none;
     color: black;
     margin-top: 15px;
-    padding: 10px 15px;
-    border: 1px solid black;
+    padding: 10px 20px;
+    border: 2px solid black;
     border-radius: 10px;
 }
 
