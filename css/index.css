@@ -211,3 +211,40 @@ header nav a {
 .boxes .box:nth-of-type(10) {
     background: dodgerblue;
 }
+
+#about {
+    margin-bottom: 30px;
+    padding: 0 20px 25px 20px;
+    border-bottom: 1px dashed black;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#cards section {
+    width: 370px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#cards section img {
+    margin-bottom: 10px;
+}
+
+#cards section a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#work-together {
+    margin: 0 20px 40px 20px
+}
