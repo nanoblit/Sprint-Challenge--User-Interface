@@ -284,4 +284,8 @@ header nav a:hover {
     .bottom-content .text-container {
         margin-bottom: 20px;
     }
+
+    footer nav {
+        width: 100%;
+    }
 }
