@@ -102,7 +102,7 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -143,4 +143,154 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40px 0;
+}
+
+header nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: color 0.5s;
+}
+
+header nav a:hover {
+    color: grey;
+}
+
+#jumbo {
+    margin-bottom: 20px;
+}
+
+.boxes .box:nth-of-type(1) {
+    background: teal;
+}
+
+.boxes .box:nth-of-type(2) {
+    background: gold;
+}
+
+.boxes .box:nth-of-type(3) {
+    background: cadetblue;
+}
+
+.boxes .box:nth-of-type(4) {
+    background: coral;
+}
+
+.boxes .box:nth-of-type(5) {
+    background: crimson;
+}
+
+.boxes .box:nth-of-type(6) {
+    background: forestgreen;
+}
+
+.boxes .box:nth-of-type(7) {
+    background: darkorchid;
+}
+
+.boxes .box:nth-of-type(8) {
+    background: hotpink;
+}
+
+.boxes .box:nth-of-type(9) {
+    background: indigo;
+}
+
+.boxes .box:nth-of-type(10) {
+    background: dodgerblue;
+}
+
+#about {
+    margin-bottom: 30px;
+    padding: 0 20px 25px 20px;
+    border-bottom: 1px dashed black;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#cards section {
+    width: 370px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#cards section img {
+    margin-bottom: 10px;
+}
+
+#cards section a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+#cards section a:hover {
+    background-color: #eeeeee;
+}
+
+#work-together {
+    margin: 0 20px 40px 20px
+}
+
+@media (max-width: 820px) {
+    .container {
+        width: 95%;
+    }
+
+    #jumbo {
+        width: 100%;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    header img {
+        margin-right: 1000px;
+        margin-bottom: 30px;
+    }
+
+    #cards {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .top-content .text-container , .bottom-content .text-container {
+        width: 100%;
+    }
+
+    .bottom-content {
+        flex-wrap: wrap;
+    }
+
+    .bottom-content .text-container {
+        margin-bottom: 20px;
+    }
+
+    footer nav {
+        width: 100%;
+    }
 }
