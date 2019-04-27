@@ -283,6 +283,7 @@ header nav a:hover {
 
     .bottom-content .text-container {
         margin-bottom: 20px;
+        padding: 0;
     }
 
     footer nav {
